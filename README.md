@@ -2,10 +2,6 @@
 
 ### Basics :
 
-<ul>
-    <li>
-        [Decorators](/basics/decorators.py)
-    </li>
-</ul>
+-   [Decorators](./basics/decorators.py)
 
----
+#
