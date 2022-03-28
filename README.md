@@ -4,7 +4,7 @@
 
 <ul>
     <li>
-        [Decorators](basics/decorators.py)
+        [Decorators](/basics/decorators.py)
     </li>
 </ul>
 
