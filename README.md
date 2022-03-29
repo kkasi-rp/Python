@@ -1,7 +1,5 @@
 # Python
 
-### Basics :
+### Core :
 
--   [Decorators](./basics/decorators.py)
-
-#
+-   [Decorators](./core/decorators/)
