@@ -1,6 +1,8 @@
+
 def deco(func):
     print('called in decorator for method : {}'.format(func.__name__))
     def wrapper(*args, **kwargs):
+        # called upon method invocation
         print('called in wrapper for method : {}'.format(func.__name__))
         funcout = func(*args, **kwargs)
         print(funcout)
