@@ -1,0 +1,2 @@
+-   venv
+-   pip install freeze (with requirements file)
