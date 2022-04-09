@@ -4,6 +4,7 @@ def decoParam(*dargs, **dkwargs):
 	print('called in decoParam')
 	def decorator(func):
 		print('called in decorator')
+		# closure function with dargs, dkwargs values stored for usage
 		@wraps(func)
 		def wrapper(*args, **kwargs):
 			print('called in wrapper')

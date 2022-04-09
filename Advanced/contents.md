@@ -4,3 +4,5 @@
 -   Threading and Multi Processing
 -   Asyncio
 -   CoRoutines
+-   Closures
+-   Descriptors
