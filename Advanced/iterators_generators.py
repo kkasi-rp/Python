@@ -95,4 +95,5 @@ def my_range(start, end):
 nums = my_range(1, 10)
 for num in nums:
 	print(num)
+
 # %%
