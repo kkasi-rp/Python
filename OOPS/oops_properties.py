@@ -32,7 +32,7 @@ class Child(Parent):
 c = Child()
 c.method_a()
 c.method_a('test') # polymorphism : taking many forms
-print(c.__dict__) 
+print(c.__dict__) # {'_Child__a': 10, '_b': 20, '_Child__c': 30}
 
 # encapsulation : hide unncessary
 # print(c.__C) # AttributeError: 'Child' object has no attribute '__b'

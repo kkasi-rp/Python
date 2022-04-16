@@ -8,6 +8,12 @@ class Person:
         Person.add_person()
 
     @classmethod
+    def create_person(cls, name):
+        if name not in ['KK','Pushpa', 'Purvi', 'Ruthvik']:
+            raise ValueError
+        return cls(name)
+
+    @classmethod
     def get_people_count(cls):
         return cls.number_of_people
 
@@ -18,6 +24,8 @@ class Person:
 
 p1 = Person('KK')
 p2 = Person('Pushpa')
+p3 = Person.create_person('Purvi')
+# p4 = Person.create_person('Test') # ValueError
 print(Person.get_people_count())
 print(p1.get_people_count())
 
